@@ -1,0 +1,21 @@
+/*MEDIA SIZE*/
+
+@media (max-width: 600px) { /*Para monitores small*/
+	.valign-wrapper {height: auto!important;}
+	section { padding: 30px 15px; }
+	#home button { margin-top: 15px; }
+	h2 { font-size: 25px; }
+	h3 { font-size: 16px; }
+	p { font-size: 16px; }
+	.contact-link { font-size: 14px; font-family: 'Industry-Regular'; letter-spacing: 1px; }
+	.details { font-size: 13px; }
+	#map { height: 50vh; }
+	.venue-box { text-align: center; padding: 30px 15px !important; }
+  nav a { padding-right: 0px; padding-left: 0px; margin: 0; }
+	.button-collapse {margin: 2px 0!important;}
+	nav ul a { color: white; }
+  nav ul { background-color: black; }
+	nav ul a:hover {line-height: 48px!important;}
+	nav {height: 69px;}
+	nav .button-collapse {margin: -6px!important;}
+}

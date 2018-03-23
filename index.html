@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+  <head>
+    <title>ETH Buenos Aires</title>
+    <meta name="description" content="">
+    <meta name="author" content="Zeppelin Solutions">
+    <link rel="shortcut icon" href="images/favico.ico"/> <!--Favicon -->
+    <meta charset="UTF-8"> <!--Encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Movile first -->
+    <script src="js/jquery.min.js"></script><!--JQuery 1.11.2 local -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section id="principal">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="menu-text" href="#about">ABOUT</a></li>
+            <li><a class="menu-text" href="#sponsors">SPONSORS</a></li>
+            <li><a class="menu-text" href="#venue">VENUE</a></li>
+            <li><a class="menu-text" href="#faq">FAQ</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-nav">
+            <li class="valign-wrapper"><a class="menu-text" href="#about">ABOUT</a></li>
+            <li class="valign-wrapper"><a class="menu-text" href="#sponsors">SPONSORS</a></li>
+            <li class="valign-wrapper"><a class="menu-text" href="#venue">VENUE</a></li>
+            <li class="valign-wrapper"><a class="menu-text" href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="valign-wrapper" id="home">
+        <div class="row">
+          <div class="col s12 offset-s0 m10 offset-m1 l8 offset-l2">
+            <img src="./images/logo.svg"/> 
+            <h5 class="valign">Part of the EHTGlobal community & first event in Latin America</h5>
+            <h4>May 25 - 27, 2018 // Buenos Aires, Argentina</h4>
+            <button data-target="register-modal" class="details modal-trigger">REGISTER</button>
+          </div>
+        </div>
+      </section>
+    </section>
+    <div id="register-modal" class="modal">
+      <div class="modal-content modal-title centered">
+        <h2>HOW DO YOU WANT TO PARTICIPATE</h2>
+        <a class="btn-floating btn-large waves-effect btn-floating-active">HACKER</a>
+        <a class="btn-floating btn-large waves-effect waves-light btn-floating-no-active" data-text="VOLUNTEER"></a>
+      </div>
+      <div class="modal-content centered">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="name" type="text" class="validate">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="col s12">
+              <button class="modal-action modal-close">SEND</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <section class="valign-wrapper" id="about">
+      <div class="valign row">
+        <h2>BUILD THE DECENTRALIZED FUTURE</h2>
+        <h3>ETHBuenosAires is welcoming those who want to support and build the decentralized future.</h3>
+        <p>A hackaton is an opportunity to work alongside the developers, thought leaders, advisers, and companies who are making the infrastructure and applications that will power the future.</p>
+      </div>
+    </section>
+    <section class="valign-wrapper" id="sponsors">
+      <div class="valign row">
+        <h2>SPONSORS</h2>
+        <h3>ETHBuenosAires sponsorship deadline is April 30th.</h3>
+        <p>Qualified sponsorships receive 15-20% credit for bounties & repos.</p>
+        <button data-target="sponsor-modal" class="details modal-trigger">Become a sponsor</button>
+        <div id="sponsor-modal" class="modal">
+          <div class="modal-content modal-title">
+            <h2>SPONSORS</h2>
+            <p>We`ll send you more information on how to participate</p>
+          </div>
+          <div class="modal-content">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="name" type="text" class="validate">
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col s12">
+                  <button class="modal-action modal-close">SEND</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row" id="venue">
+      <div class="col s12 m6 valign-wrapper venue-box">
+        <div class="col s12 m10 offset-m1">
+          <h5 class="details">VENUE</h5>
+          <h2>AREA 3</h2>
+          <p>El salvador 5218, Palermo,</br>Buenos Aires, Argentina.</p>
+        </div>
+      </div>
+      <div class="col s12 m6" id="map"></div>
+    </section>
+    <section class="valign-wrapper" id="contact">
+      <div class="valign">
+        <div class="row">
+          <a class="contact-link" href="mailto:hello@ethbuenosaires.com.ar">HELLO@ETHBUENOSAIRES.COM.AR</a>
+        </div>
+        <div class="row">
+          <a class="details">VALUES & ETHOS</a>
+          <span class="details"> - </span>
+          <a class="details">CODE OF CONDUCT</a>
+        </div>
+      </div>
+    </section>  
+  </body>
+  <script>
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: new google.maps.LatLng(-34.5859528,-58.4322981),
+        styles: [
+          {
+            "featureType": "all",
+            "elementType": "labels",
+            "stylers": [
+              { "visibility": "off" },
+              { "hue": "#ff0000" }
+            ]
+          },
+          {
+            "featureType": "administrative.province",
+            "elementType": "all",
+            "stylers": [
+              { "visibility": "off" }
+            ]
+          },
+          {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+              { "saturation": -100 },
+              { "lightness": 65 },
+              { "visibility": "on" }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+              { "visibility": "off" }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+              { "saturation": -100 },
+              { "visibility": "simplified"}
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "all",
+            "stylers": [
+              { "saturation": -100 },
+              { "lightness": 30 },
+              { "visibility": "on" }
+            ]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "all",
+            "stylers": [
+              { "saturation": -100 },
+              { "lightness": 40 },
+              { "visibility": "on" },
+            ]
+          },
+          {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+              { "visibility": "off" }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
+              { "hue": "#ffff00" },
+              { "lightness": -25 },
+              { "saturation": -97 }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels",
+            "stylers": [
+              { "visibility": "on" },
+              { "lightness": -25 },
+              { "saturation": -100 }
+            ]
+          }
+      ],
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+      // MARKERS
+      var marker1 = new google.maps.Marker({
+        position: {lat: -34.5859528, lng: -58.4322981},
+        map: map,
+        title: 'ETHBuenosAires',
+      });
+      var infowindow1 = new google.maps.InfoWindow({
+        content: ('<div>ETHBuenosAires</div>')
+      });
+      google.maps.event.addListener(marker1, 'click', function() {
+        infowindow1.open(map,marker1);
+      });
+
+      google.maps.event.trigger(map, 'resize');
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAskwefZc4kZl3RdqNXEUkgg8IlBsQtVd0&callback=initMap"></script>
+</html>
