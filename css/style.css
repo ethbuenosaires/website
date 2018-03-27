@@ -309,4 +309,7 @@ nav a {
   border-radius: 50px;
   background: #f6f6f6;
 }
-
+.text-link {
+  color: inherit;
+  text-decoration: underline;
+}
