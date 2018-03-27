@@ -198,6 +198,19 @@ nav a {
   margin-top: 50px;
   text-transform: uppercase;
 }
+#sponsors img {
+  max-width: 250px;
+  width: 60%;
+  margin: 20px;
+}
+#sponsor-aragon {
+  position: relative;
+  top: 10px;
+}
+#sponsor-ethereum {
+  position: relative;
+  top: 10px;
+}
 
 /*CONTACT*/
 #contact {
