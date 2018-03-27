@@ -65,18 +65,18 @@ button {
 
 /*TEXT*/
 h2 {
-  font-size: 30px;
+  font-size: 29px;
   color: black;
   font-family: 'Industry-Black';
 }
 h3 {
   margin-top: 75px;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 30px;
   font-family: 'Univers-Bold';
 }
 p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 30px;
   font-family: 'Univers-Roman';
 }
@@ -114,6 +114,7 @@ nav a {
   line-height: 90px;
   padding-right: 30px;
   padding-left: 30px;
+  font-size: 13px !important;
 }
 .nav-wrapper {
   padding-left: 30px;
@@ -170,6 +171,10 @@ nav a {
   height: auto;
 }
 
+#about .col.s8 {
+  margin: auto;
+}
+
 /*SPONSORS*/
 #sponsors {
   background-color: #f6f6f6;
@@ -199,7 +204,7 @@ nav a {
   cursor: pointer;
 }
 .contact-link {
-  font-size: 30px;
+  font-size: 27px;
   color: black;
   font-family: 'Industry-Black';
 }
