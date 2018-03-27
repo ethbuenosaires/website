@@ -209,6 +209,16 @@ nav a {
   font-family: 'Industry-Black';
 }
 
+.network-link {
+  padding: 0 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.network-link img {
+  width: 40px;
+}
+
 /*VENUE*/
 #venue {
   background-color: white;
