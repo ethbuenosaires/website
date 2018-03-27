@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Location</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="99.8511994%" y2="98.8722669%" id="linearGradient-1">
+            <stop stop-color="#4E3DF5" offset="0%"></stop>
+            <stop stop-color="#6832A2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Location" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M49.8550725,100 C23.2850242,74.7275933 10,54.7275933 10,40 C10,17.90861 27.8437237,0 49.8550725,0 C71.8664212,0 89.7101449,17.90861 89.7101449,40 C89.7101449,54.7275933 76.4251208,74.7275933 49.8550725,100 Z M49.1304348,56.5217391 C57.9349743,56.5217391 65.0724638,49.0598183 65.0724638,39.8550725 C65.0724638,30.6503266 57.9349743,23.1884058 49.1304348,23.1884058 C40.3258953,23.1884058 33.1884058,30.6503266 33.1884058,39.8550725 C33.1884058,49.0598183 40.3258953,56.5217391 49.1304348,56.5217391 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

@@ -122,7 +122,7 @@
     <section class="valign-wrapper" id="contact">
       <div class="valign">
         <div class="row">
-          <a class="contact-link" href="mailto:hello@ethbuenosaires.com.ar">HELLO@ETHBUENOSAIRES.COM.AR</a>
+          <a class="contact-link" href="mailto:hello@ethbuenosaires.com">HELLO@ETHBUENOSAIRES.COM</a>
         </div>
         <div class="row">
           <a class="details">VALUES & ETHOS</a>
@@ -227,6 +227,13 @@
       var marker1 = new google.maps.Marker({
         position: {lat: -34.5859528, lng: -58.4322981},
         map: map,
+        icon: 
+          {
+            url: "./images/location.svg", 
+            scaledSize: new google.maps.Size(40, 40), 
+            origin: new google.maps.Point(0,0), 
+            anchor: new google.maps.Point(0, 0) 
+          },
         title: 'ETHBuenosAires',
       });
       var infowindow1 = new google.maps.InfoWindow({
