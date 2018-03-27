@@ -133,7 +133,13 @@ nav a {
   height: 70px !important;
 }
 .side-nav {
-  width: 200px;
+  width: 100%;
+}
+.close-link {
+  float: right;
+  padding: 0 10px;
+  font-family: 'Industry-Black';
+  color: #f6f6f6;
 }
 
 /*HOME*/
@@ -209,13 +215,13 @@ nav a {
   font-family: 'Industry-Black';
 }
 
-.network-link {
+.social-media {
   padding: 0 20px;
   height: 40px;
   width: 40px;
 }
 
-.network-link img {
+.social-media img {
   width: 40px;
 }
 
