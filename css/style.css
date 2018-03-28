@@ -167,6 +167,10 @@ nav a {
   border-radius: 50px;
   margin-top: 50px;
 }
+#home button:hover {
+  color: #603bc1;
+  background: white;
+}
 #home h5 {
   margin-top: 50px;
 }
