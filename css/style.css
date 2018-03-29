@@ -167,6 +167,10 @@ nav a {
   border-radius: 50px;
   margin-top: 50px;
 }
+#home button:hover {
+  color: #603bc1;
+  background: white;
+}
 #home h5 {
   margin-top: 50px;
 }
@@ -177,7 +181,7 @@ nav a {
   height: auto;
 }
 
-#about .col.s8 {
+#about .col.m8 {
   margin: auto;
 }
 
@@ -197,6 +201,24 @@ nav a {
   border-radius: 50px;
   margin-top: 50px;
   text-transform: uppercase;
+}
+#sponsors button:hover, .modal button:hover,
+#sponsors button:focus, .modal button:focus,
+#sponsors button:active, .modal button:active {
+  background: linear-gradient(to bottom right, #3227a2 , #221035);
+}
+#sponsors img {
+  max-width: 250px;
+  width: 60%;
+  margin: 20px;
+}
+#sponsor-aragon {
+  position: relative;
+  top: 10px;
+}
+#sponsor-ethereum {
+  position: relative;
+  top: 10px;
 }
 
 /*CONTACT*/
@@ -243,15 +265,16 @@ nav a {
 /*MODALS*/
 .modal h2 {
   font-size: 18px !important;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .modal p {
-  font-size: 16px !important;
+  font-size: 15px !important;
+  line-height: 25px;
 }
 .modal-title {
-  background: #f6f6f6;
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+  background: #eae5e5;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
   position: relative;
 }
 .modal-title:after {
@@ -262,10 +285,15 @@ nav a {
   width: 0;
   height: 0;
   border: 20px solid transparent;
-  border-top-color: #f6f6f6;
+  border-top-color: #eae5e5;
   border-bottom: 0;
   margin-left: -20px;
   margin-bottom: -20px;
+}
+
+#coc-modal {
+  max-height: 90%;
+  top: 5% !important;
 }
 .btn-floating {
   box-shadow: none;
