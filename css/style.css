@@ -207,18 +207,54 @@ nav a {
 #sponsors button:active, .modal button:active {
   background: linear-gradient(to bottom right, #3227a2 , #221035);
 }
+#sponsors a {
+  height: 100px;
+  width: 260px;
+  display: inline-block;
+  vertical-align: middle;
+}
 #sponsors img {
-  max-width: 250px;
+  max-width: 230px;
   width: 60%;
-  margin: 20px;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
 }
-#sponsor-aragon {
-  position: relative;
-  top: 10px;
+#sponsor-decentraland img {
+  width: 72%;
 }
-#sponsor-ethereum {
-  position: relative;
-  top: 10px;
+#sponsor-0x img {
+  width: 33%;
+}
+#sponsor-golem img {
+  width: 46%;
+}
+#sponsor-cosmos img {
+  width: 56%;
+  margin-top: 26px;
+}
+#sponsor-storj img {
+  width: 53%;
+}
+#sponsor-aragon img {
+  margin-top: 13px;
+}
+#sponsor-consensys img {
+  margin-top: 16px;
+}
+#sponsor-gnosis img {
+  margin-top: 30px;
+}
+#sponsor-status img {
+  margin-top: 30px;
+  width: 53%;
+}
+#sponsor-lendroid img {
+  width: 53%;
+  margin-top: 40px;
+}
+#sponsor-windingtree img {
+  margin-top: 15px;
 }
 
 /*CONTACT*/
