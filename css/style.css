@@ -256,6 +256,12 @@ nav a {
 #sponsor-windingtree img {
   margin-top: 15px;
 }
+#sponsor-blueyard img {
+  width: 25%;
+}
+#sponsor-placeholder img {
+  margin-top: 43px;
+}
 
 /*CONTACT*/
 #contact {
