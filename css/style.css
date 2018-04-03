@@ -262,6 +262,10 @@ nav a {
 #sponsor-placeholder img {
   margin-top: 43px;
 }
+#sponsor-toshi img {
+  width: 51%;
+  margin-top: 18px;
+}
 
 /*CONTACT*/
 #contact {
