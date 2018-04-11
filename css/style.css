@@ -272,6 +272,9 @@ nav a {
   width: 67%;
   margin-top: 24px;
 }
+#sponsor-ethcommons img {
+  width: 73%;
+}
 
 /*CONTACT*/
 #contact {
