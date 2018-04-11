@@ -307,13 +307,27 @@ nav a {
   margin: 0;
 }
 .venue-box {
-  height: 500px!important;
+  min-height: 500px!important;
+  height: auto;
   text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-#map {
+.google-map {
   height: 500px;
 }
 
+#venue img {
+  height: 160px;
+}
+#venue .box1 {
+  width: 265px;
+}
+#venue .box2 {
+  width: 288px;
+}
 /*MODALS*/
 .modal h2 {
   font-size: 18px !important;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Location_black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Location_black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,40 C5.33333333,29.8910373 0,21.8910373 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,21.8910373 26.6666667,29.8910373 16,40 Z M15.7090909,22.6086957 C19.2437133,22.6086957 22.1090909,19.6239273 22.1090909,15.942029 C22.1090909,12.2601307 19.2437133,9.27536232 15.7090909,9.27536232 C12.1744685,9.27536232 9.30909091,12.2601307 9.30909091,15.942029 C9.30909091,19.6239273 12.1744685,22.6086957 15.7090909,22.6086957 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>

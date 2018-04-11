@@ -178,14 +178,21 @@
       </div>
     </section>
     <section class="row" id="venue">
-      <div class="col s12 m6 valign-wrapper venue-box">
-        <div class="col s12 m10 offset-m1">
+      <div class="col s12 l6 venue-box">
+        <div class="box1">
           <h5 class="details">VENUE</h5>
+          <img src="./images/venue.JPG">
           <h2>AREA 3</h2>
           <p>El salvador 5218, Palermo,</br>Buenos Aires, Argentina.</p>
         </div>
+        <div class="box2">
+          <h5 class="details">HOTEL</h5>
+          <img src="./images/hotel.jpg">
+          <h2>DAZZLER PALERMO</h2>
+          <p>Humboldt 1650,</br>Buenos Aires, Argentina.</p>
+        </div>
       </div>
-      <div class="col s12 m6" id="map"></div>
+      <div class="col s12 l6 google-map" id="map"></div>
     </section>
     <section class="valign-wrapper" id="contact">
       <div class="valign">
@@ -236,7 +243,7 @@
   <script>
     function initMap() {
       var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 14,
+        zoom: 15,
         center: new google.maps.LatLng(-34.5859528,-58.4322981),
         styles: [
           {
@@ -325,27 +332,46 @@
         mapTypeId: google.maps.MapTypeId.ROADMAP
       });
       // MARKERS
-      var marker1 = new google.maps.Marker({
+      var venue = new google.maps.Marker({
         position: {lat: -34.5859528, lng: -58.4322981},
         map: map,
         icon: 
           {
-            url: "./images/Location.svg", 
-            scaledSize: new google.maps.Size(40, 40), 
-            origin: new google.maps.Point(0,0), 
-            anchor: new google.maps.Point(0, 0) 
+            url: "./images/Location.svg",  
+            labelOrigin: new google.maps.Point(15,53),
           },
-        title: 'ETHBuenosAires',
+        title: 'Venue',
+        label: {
+          text: 'VENUE',
+          color: "#603bc1",
+          fontSize: "12px",
+        }
       });
-      var infowindow1 = new google.maps.InfoWindow({
-        content: ('<div>ETHBuenosAires</div>')
-      });
-      google.maps.event.addListener(marker1, 'click', function() {
-        infowindow1.open(map,marker1);
+
+
+      var hotel = new google.maps.Marker({
+        position: {lat: -34.58524, lng: -58.435953},
+        map: map,
+        icon: 
+          {
+            url: "./images/Location_black.svg", 
+            labelOrigin: new google.maps.Point(15,53),
+          },
+        title: 'Hotel',
+        label: {
+          text: 'HOTEL',
+          color: "#000000",
+          fontSize: "12px",
+        }
       });
 
       google.maps.event.trigger(map, 'resize');
     }
   </script>
+  <style>
+    img[src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png"] {
+      display: none;
+    }
+  </style>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAskwefZc4kZl3RdqNXEUkgg8IlBsQtVd0&callback=initMap"></script>
 </html>

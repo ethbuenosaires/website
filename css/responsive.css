@@ -1,9 +1,9 @@
 /*MEDIA SIZE*/
 
 @media (max-width: 600px) { /*Para monitores small*/
-	.valign-wrapper {height: auto!important;}
+	.valign-wrapper { height: auto!important; }
 	section { padding: 30px 15px; }
-	#principal {height: auto;}
+	#principal { height: auto; }
 	#home button { margin-top: 15px; }
 	#home img { width: 105px; }
 	h2 { font-size: 25px; }
@@ -13,13 +13,18 @@
 	.contact-link { font-size: 14px; font-family: 'Industry-Black'; letter-spacing: 1px; }
 	.social-media-link img { width: 30px; }
 	.details { font-size: 13px; }
-	#map { height: 50vh; }
+	#map { height: 50vh !important; }
 	.venue-box { text-align: center; padding: 30px 15px !important; }
   nav a { padding-right: 0px; padding-left: 0px; margin: 0; }
-	.button-collapse {margin: 2px 0!important;}
+	.button-collapse { margin: 2px 0 !important; }
 	nav ul a { color: white; }
   nav ul { background-color: black; }
-	nav ul a:hover {line-height: 48px!important;}
-	nav {height: 69px;}
-	nav .button-collapse {margin: -6px!important;}
+	nav ul a:hover { line-height: 48px !important; }
+	nav { height: 69px; }
+	nav .button-collapse { margin: -6px !important; }
+}
+
+
+@media (min-width: 982px) and (max-width: 1150px) {
+	#map { height: 714px !important; }
 }
