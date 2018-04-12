@@ -190,9 +190,10 @@ nav a {
 }
 
 /*SPEAKERS*/
-#speakers {
+#spekers {
   background-color: #f6f6f6;
-  padding-top: 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 .speakers-title {
   padding-bottom: 40px;
@@ -204,7 +205,6 @@ nav a {
   vertical-align: middle;
 }
 .speakers-text {
-  margin-top: 5px;
   margin-top: 5px;
   margin-bottom: 0;
   line-height: 20px;
@@ -347,6 +347,7 @@ nav a {
 }
 .venue-box {
   min-height: 500px!important;
+  background-color: #f6f6f6;
   height: auto;
   text-align: left;
   display: flex;
