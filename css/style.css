@@ -7,6 +7,10 @@
  src: url('../fonts/Univers-Roman.otf') format('opentype');
 }
 @font-face {
+ font-family: 'Univers-Light';
+ src: url('../fonts/Univers-Light.otf') format('opentype');
+}
+@font-face {
  font-family: 'Industry-Regular';
  src: url('../fonts/Industry-Regular.otf') format('opentype');
 }
@@ -185,9 +189,41 @@ nav a {
   margin: auto;
 }
 
+/*SPEAKERS*/
+#speakers {
+  background-color: #f6f6f6;
+  padding-top: 0;
+}
+.speakers-title {
+  padding-bottom: 40px;
+}
+.speakers-box {
+  height: 200px;
+  width: 242px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.speakers-text {
+  margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: 20px;
+}
+
+.speakers-subtitle {
+  margin-top: 5px;
+  font-family: 'Univers-Light';
+  color: #484848;
+  line-height: 20px;
+  font-size: 15px
+}
+.speakers-img {
+  height: 85px !important;
+  width: 85px !important;
+}
+
 /*SPONSORS*/
 #sponsors {
-  background-color: #f6f6f6;
   height: auto;
 }
 #sponsors h3, #venue h5 {
