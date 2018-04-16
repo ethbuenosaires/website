@@ -283,7 +283,6 @@ nav a {
   margin-top: 30px;
 }
 #sponsor-status img {
-  margin-top: 30px;
   width: 51%;
 }
 #sponsor-lendroid img {
@@ -310,6 +309,9 @@ nav a {
 }
 #sponsor-ethcommons img {
   width: 73%;
+}
+#sponsor-criptonoticias img {
+  width: 51%;
 }
 
 /*CONTACT*/
