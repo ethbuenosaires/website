@@ -190,7 +190,7 @@ nav a {
 }
 
 /*SPEAKERS*/
-#spekers {
+#speakers {
   background-color: #f6f6f6;
   padding-top: 40px;
   padding-bottom: 10px;
@@ -313,7 +313,12 @@ nav a {
 #sponsor-criptonoticias img {
   width: 51%;
 }
+#sponsor-ripio img {
+  width: 31%;
+  margin-top: 29px;
+}
 
+/*PARTNERS*/
 .partners-title {
   margin-top: 130px;
 }
