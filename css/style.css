@@ -276,9 +276,6 @@ nav a {
 #sponsor-aragon img {
   margin-top: 13px;
 }
-#sponsor-consensys img {
-  margin-top: 16px;
-}
 #sponsor-gnosis img {
   margin-top: 30px;
 }
@@ -317,7 +314,13 @@ nav a {
   width: 31%;
   margin-top: 29px;
 }
-
+#sponsor-xivis img {
+  width: 43%;
+  margin-top: 25px;
+}
+#sponsor-levelk img {
+  width: 27%;
+}
 /*PARTNERS*/
 .partners-title {
   margin-top: 130px;
