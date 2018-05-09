@@ -296,8 +296,19 @@ nav a {
   width: 51%;
 }
 #sponsor-ripio img {
-  width: 31%;
+  width: 41%;
   margin-top: 29px;
+}
+#sponsor-maecenas img {
+  width: 49%;
+  margin-top: 29px;
+}
+#sponsor-hydro img {
+  width: 28%;
+  margin-top: 26px;
+}
+#sponsor-acamica img {
+  width: 50%;
 }
 #sponsor-maker img {
   width: 37%;
