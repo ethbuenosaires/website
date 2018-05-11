@@ -37,7 +37,7 @@ section{
   text-align: center;
 }
 section#home {
-    padding: 50px;
+    padding: 15px;
 }
 button {
   outline: none;
@@ -152,7 +152,7 @@ nav a {
 /*HOME*/
 #principal {
   background: linear-gradient(to bottom right, #4E3DF5 , #6832A2);
-  height: 80vh;
+  height: auto;
   color: white;
   padding: 0;
   margin: 0;
