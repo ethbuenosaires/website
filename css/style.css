@@ -36,6 +36,9 @@ section{
   overflow: hidden;
   text-align: center;
 }
+section#home {
+    padding: 50px;
+}
 button {
   outline: none;
 }
@@ -149,7 +152,7 @@ nav a {
 /*HOME*/
 #principal {
   background: linear-gradient(to bottom right, #4E3DF5 , #6832A2);
-  height: 100vh;
+  height: 80vh;
   color: white;
   padding: 0;
   margin: 0;
