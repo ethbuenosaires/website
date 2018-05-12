@@ -51,6 +51,7 @@
     <script src="../js/jquery.min.js"></script><!--JQuery 1.11.2 local -->
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="../js/home.js"></script>
+    <script type="text/javascript" src="../js/schedule.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
     <script type="text/javascript" src="../js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -63,240 +64,326 @@
     <section id="principal-schedule">
       <nav>
         <div class="nav-wrapper">
-          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          <a href="../#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a class="menu-text" href="#about">ABOUT</a></li>
-            <li><a class="menu-text" href="#speakers-and-judges">SPEAKERS AND JUDGES</a></li>
-            <li><a class="menu-text" href="#sponsors">SPONSORS</a></li>
-            <li><a class="menu-text" href="#venue">VENUE</a></li>
-            <!-- <li><a class="menu-text" href="#faq">FAQ</a></li> -->
+            <li><a class="menu-text" href="../#about">ABOUT</a></li>
+            <li><a class="menu-text" href="../#speakers-and-judges">SPEAKERS AND JUDGES</a></li>
+            <li><a class="menu-text" href="../#sponsors">SPONSORS</a></li>
+            <li><a class="menu-text" href="../#venue">VENUE</a></li>
+            <!-- <li><a class="menu-text" href="../#faq">FAQ</a></li> -->
           </ul>
           <ul class="side-nav" id="mobile-nav">
-            <li><a class="sidenav-close close-link" href="#!">X</a></li>
-            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="#about">ABOUT</a></li>
-            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="#speakers-and-judges">SPEAKERS AND JUDGES</a></li>
-            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="#sponsors">SPONSORS</a></li>
-            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="#venue">VENUE</a></li>
-            <!-- <li class="valign-wrapper"><a class="menu-text sidenav-close" href="#faq">FAQ</a></li> -->
+            <li><a class="sidenav-close close-link" href="../#!">X</a></li>
+            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="../#about">ABOUT</a></li>
+            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="../#speakers-and-judges">SPEAKERS AND JUDGES</a></li>
+            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="../#sponsors">SPONSORS</a></li>
+            <li class="valign-wrapper"><a class="menu-text sidenav-close" href="../#venue">VENUE</a></li>
+            <!-- <li class="valign-wrapper"><a class="menu-text sidenav-close" href="../#faq">FAQ</a></li> -->
           </ul>
         </div>
       </nav>
       <section>
         <div class="row">
           <div class="col s12 offset-s0 m10 offset-m1 l8 offset-l2">
-            <h2>ETHBuenosAires SCHEDULE</h2>
+            <img class="hide-on-small-only logo" src="../images/logo.svg"/>
+            <img class="hide-on-med-and-up logo" src="../images/logo-mobile.svg"/>
+            <h2>SCHEDULE</h2>
+          </div>
+          <div class="tab-container">
+            <button id="friday-tab" class="active">FRIDAY</button>
+            <button id="saturday-tab">SATURDAY</button>
+            <button id="sunday-tab">SUNDAY</button>
           </div>
         </div>
       </section>
     </section>
     <section id="timeline-section">
-      <div class="timeline">
-        <div class="entry">
-          <div class="title">
-            <h3>08:00 HS</h3>
+      <div id="friday">
+        <div>
+          <h1 class="day">FRIDAY</h1>
+          <p class="date">May 25th</p>
+        </div>
+        <div class="timeline">
+          <div class="entry">
+            <div class="title">
+              <h3>08:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Registration opens</p>
+            </div>
           </div>
-          <div class="body">
-            <p>Registration opens</p>
+          <div class="entry">
+            <div class="title">
+              <h3>08:45 HS</h3>
+            </div>
+            <div class="body">
+              <p>Pre-Hack Orientation</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>09:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Intro to solidity & smart contracts</p>
+              <p class="subtitle">TBD</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>09:30 HS</h3>
+            </div>
+            <div class="body">
+              <p>Crypto collectibles using OZ</p>
+              <p class="subtitle">Elena Nadolinski</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>10:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Intro to dApp development</p>
+              <p class="subtitle">TBD</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>10:25 HS</h3>
+            </div>
+            <div class="body">
+              <p>Break</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>10:40 HS</h3>
+            </div>
+            <div class="body">
+              <p>Securing Institutional Crypto-Assets</p>
+              <p class="subtitle">Sergio Lerner</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>11:10 HS</h3>
+            </div>
+            <div class="body">
+              <p>Building Mobile dApps</p>
+              <p class="subtitle">Pete Kim</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>11:40 HS</h3>
+            </div>
+            <div class="body">
+              <p>Decentralized Exchanges</p>
+              <p class="subtitle">Bowen Wang</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>12:10 HS</h3>
+            </div>
+            <div class="body">
+              <p>Boosting Blockchain together</p>
+              <p class="subtitle">Agustin Aguilar</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>12:35 HS</h3>
+            </div>
+            <div class="body">
+              <p>Lunch</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>14:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Community and communal magic</p>
+              <p class="subtitle">Andy Tudhope</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>14:30 HS</h3>
+            </div>
+            <div class="body">
+              <p>Hacking the solidity compiler</p>
+              <p class="subtitle">Federico Bond</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>15:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Live Free and Dai Hard: How Maker built a more stable coin</p>
+              <p class="subtitle">Mariano Conti</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>15:25 HS</h3>
+            </div>
+            <div class="body">
+              <p>Break</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>15:55 HS</h3>
+            </div>
+            <div class="body">
+              <p>Scaling</p>
+              <p class="subtitle">Lane Rettig</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>16:20 HS</h3>
+            </div>
+            <div class="body">
+              <p>Layer 2</p>
+              <p class="subtitle">Liam Horne</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>16:55 HS</h3>
+            </div>
+            <div class="body">
+              <p>State Channels</p>
+              <p class="subtitle">Ameen</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>17:25 HS</h3>
+            </div>
+            <div class="body">
+              <p>Token curation markets</p>
+              <p class="subtitle">Simon de la Rouviere</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>17:55 HS</h3>
+            </div>
+            <div class="body">
+              <p>Upgradeability & infrastructure</p>
+              <p class="subtitle">Facundo Spagnuolo</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>18:25 HS</h3>
+            </div>
+            <div class="body">
+              <p>Governance and DAOs</p>
+              <p class="subtitle">TBD - Aragon</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>20:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Open Ceremony</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>22:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Team formation</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>22:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Hacking begins</p>
+            </div>
           </div>
         </div>
-        <div class="entry">
-          <div class="title">
-            <h3>08:45 HS</h3>
+      </div>
+      <div class="hidden" id="saturday">
+        <div>
+          <h1 class="day">SATURDAY</h1>
+          <p class="date">May 26th</p>
+        </div>
+        <div class="timeline">
+          <div class="entry">
+            <div class="title">
+              <h3>11:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Panel: Token design & distribution</p>
+              <p class="subtitle">Wendy Xia Schadeck</p>
+            </div>
           </div>
-          <div class="body">
-            <p>Pre-Hack Orientation</p>
+          <div class="entry">
+            <div class="title">
+              <h3>12:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Lunch</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>13:30 HS</h3>
+            </div>
+            <div class="body">
+              <p>Panel</p>
+            </div>
           </div>
         </div>
-        <div class="entry">
-          <div class="title">
-            <h3>09:00 HS</h3>
-          </div>
-          <div class="body">
-            <p>Intro to solidity & smart contracts</p>
-            <p class="subtitle">TBD</p>
-          </div>
+      </div>
+      <div class="hidden" id="sunday">
+        <div>
+          <h1 class="day">SUNDAY</h1>
+          <p class="date">May 27th</p>
         </div>
-        <div class="entry">
-          <div class="title">
-            <h3>09:30 HS</h3>
+        <div class="timeline">
+          <div class="entry">
+            <div class="title">
+              <h3>10:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Judging time</p>
+            </div>
           </div>
-          <div class="body">
-            <p>Crypto collectibles using OZ</p>
-            <p class="subtitle">Elena Nadolinski</p>
+          <div class="entry">
+            <div class="title">
+              <h3>12:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Lunch</p>
+            </div>
           </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>10:00 HS</h3>
+          <div class="entry">
+            <div class="title">
+              <h3>13:30 HS</h3>
+            </div>
+            <div class="body">
+              <p>Winners announcement</p>
+            </div>
           </div>
-          <div class="body">
-            <p>Intro to dApp development</p>
-            <p class="subtitle">TBD</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>10:25 HS</h3>
-          </div>
-          <div class="body">
-            <p>Break</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>10:40 HS</h3>
-          </div>
-          <div class="body">
-            <p>Securing Institutional Crypto-Assets</p>
-            <p class="subtitle">Sergio Lerner</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>11:10 HS</h3>
-          </div>
-          <div class="body">
-            <p>Building Mobile dApps</p>
-            <p class="subtitle">Pete Kim</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>11:40 HS</h3>
-          </div>
-          <div class="body">
-            <p>Decentralized Exchanges</p>
-            <p class="subtitle">Bowen Wang</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>12:10 HS</h3>
-          </div>
-          <div class="body">
-            <p>Boosting Blockchain together</p>
-            <p class="subtitle">Agustin Aguilar</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>12:35 HS</h3>
-          </div>
-          <div class="body">
-            <p>Lunch</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>14:00 HS</h3>
-          </div>
-          <div class="body">
-            <p>Community and communal magic</p>
-            <p class="subtitle">Andy Tudhope</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>14:30 HS</h3>
-          </div>
-          <div class="body">
-            <p>Hacking the solidity compiler</p>
-            <p class="subtitle">Federico Bond</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>15:00 HS</h3>
-          </div>
-          <div class="body">
-            <p>Live Free and Dai Hard: How Maker built a more stable coin</p>
-            <p class="subtitle">Mariano Conti</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>15:25 HS</h3>
-          </div>
-          <div class="body">
-            <p>Break</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>15:55 HS</h3>
-          </div>
-          <div class="body">
-            <p>Scaling</p>
-            <p class="subtitle">Lane Rettig</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>16:20 HS</h3>
-          </div>
-          <div class="body">
-            <p>Layer 2</p>
-            <p class="subtitle">Liam Horne</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>16:55 HS</h3>
-          </div>
-          <div class="body">
-            <p>State Channels</p>
-            <p class="subtitle">Ameen</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>17:25 HS</h3>
-          </div>
-          <div class="body">
-            <p>Token curation markets</p>
-            <p class="subtitle">Simon de la Rouviere</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>17:55 HS</h3>
-          </div>
-          <div class="body">
-            <p>Upgradeability & infrastructure</p>
-            <p class="subtitle">Facundo Spagnuolo</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>18:25 HS</h3>
-          </div>
-          <div class="body">
-            <p>Governance and DAOs</p>
-            <p class="subtitle">TBD - Aragon</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>20:00 HS</h3>
-          </div>
-          <div class="body">
-            <p>Open Ceremony</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>22:00 HS</h3>
-          </div>
-          <div class="body">
-            <p>Team formation</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">
-            <h3>22:00 HS</h3>
-          </div>
-          <div class="body">
-            <p>Hacking begins</p>
+          <div class="entry">
+            <div class="title">
+              <h3>19:00 HS</h3>
+            </div>
+            <div class="body">
+              <p>Placeholder x ETHBuenosAires After Party</p>
+            </div>
           </div>
         </div>
       </div>
