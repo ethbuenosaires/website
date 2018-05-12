@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.logo {
+  width: 350px;
+  max-width: 90%;
+}
+h1.day {
+  color: #6414FF;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+p.date {
+  font-family: 'Univers-Light';
+  color: #484848;
+  margin-bottom: 62px;
+}
 #principal-schedule {
   background: linear-gradient(to bottom right, #4E3DF5 , #6832A2);
   height: auto;
@@ -30,14 +44,14 @@
   width: 100%;
   max-width: 800px;
   background: #fff;
-  padding: 100px 50px;
+  padding: 0 50px;
   position: relative;
   margin: auto;
 }
 .timeline:before {
   content: '';
   position: absolute;
-  top: 0px;
+  top: 6px;
   left: calc(33% + 15px);
   bottom: 0px;
   width: 4px;
@@ -105,4 +119,34 @@
 .entry .body ul li:before {
   content: "–";
   margin-right: .5em;
+}
+.tab-container {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 200px);
+}
+.tab-container button.active {
+  background: white;
+  border: solid 2px white;
+  padding: 10px 50px;
+  margin: 0;
+  color: #6414FF;
+}
+.tab-container button {
+  background: #dedddd;
+  border: solid 2px #dedddd;
+  padding: 10px 50px;
+  margin: 0;
+  color: grey;
+}
+
+.tab-container button:hover {
+  background: #bdbaba;
+  border: solid 2px #bdbaba;
+  color: white;
+}
+.tab-container button.active:hover {
+  background: white;
+  border: solid 2px white;
+  color: #6414FF;
 }
