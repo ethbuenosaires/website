@@ -5,7 +5,7 @@
 	section { padding: 30px 15px; }
 	#principal { height: auto; }
 	#home button { margin-top: 15px; }
-	#home img { width: 105px; }
+	#home img, #schedule-home img { width: 105px; }
 	h2 { font-size: 25px; }
 	h3 { font-size: 16px; }
 	h5 { line-height: 27px; }
@@ -22,8 +22,18 @@
 	nav ul a:hover { line-height: 48px !important; }
 	nav { height: 69px; }
 	nav .button-collapse { margin: -6px !important; }
+	.tab-container { position: absolute; bottom: 0; left: 0; width: 100%; }
+	.tab-container button.active, .tab-container button { padding: 10px 15px !important; line-height: 16px; }
+	.timeline { padding: 0 10px; }
+	.entry .title:before { right: -22px; }
 }
 
+@media (min-width: 600px) and (max-width: 820px) {
+	.tab-container { position: absolute; bottom: 0; left: 0; width: 100%; }
+	.tab-container button.active, .tab-container button { padding: 10px 15px !important; line-height: 16px; }
+	.timeline { padding: 0 10px; }
+	.entry .title:before { right: -22px; }
+}
 
 @media (min-width: 982px) and (max-width: 1150px) {
 	#map { height: 714px !important; }
